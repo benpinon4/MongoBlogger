@@ -164,12 +164,15 @@ const postIdToDelete = "69"
 
 
 //Stretch Goal//*******
-// const deleteMany = (deleteManyArr)=>{
-//     db.blogs.deleteMany({
-//         id: {
-//             $in: ["a2c15b3c-f687-4ee8-9a04-24fb30b8f1e1", "01ac5582-4c44-45f3-b3c1-f35db0edc29e"]
-//         }
-//     })
+const deleteMany = (posts)=>{
+    db.blogs.deleteMany({
+        id: {
+            $in: ["a2c15b3c-f687-4ee8-9a04-24fb30b8f1e1", "01ac5582-4c44-45f3-b3c1-f35db0edc29e"]
+        }
+    })
+        
+
+  
         
 
   
